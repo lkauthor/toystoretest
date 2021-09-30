@@ -1,0 +1,19 @@
+using System;
+namespace example
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+    int disc;
+    string customerStatus = "Silver";
+    
+    if
+	{ 
+	(customerStatus="Gold")
+       	disc=.1;
+    	}
+    else disc=.05;
+}
+  }
+}

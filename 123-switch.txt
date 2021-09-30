@@ -1,0 +1,26 @@
+using System;
+namespace example
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+    int disc;
+    string customerStatus = "Silver";
+    
+    switch (customerStatus)
+    {
+	case 'Gold':
+	disc = .1;
+	break;
+	case 'Silver':
+	disc = .05;
+	break;
+	case 'Bronze':
+	disc = .02;
+	default:
+	disc= 0;
+	return;
+}
+  }
+}

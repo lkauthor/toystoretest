@@ -1,0 +1,14 @@
+using System;
+namespace example
+{
+  class Program
+  {
+    static void Main()
+	{
+	int amount = Console.ReadLine("How many toy cars do you want?")
+	Console.WriteLine("Your order total will be {0} dollars", amount*16)
+
+	}
+
+  }
+}
